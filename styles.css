@@ -1,7 +1,8 @@
 body{
     margin: 0px;
+    width: 100vmax;
 }
-
+/*Início Header*/
 header{
     display: flex;
     align-items: center;
@@ -12,19 +13,21 @@ header{
 
 #imgLogo{
     height: 10vh;
-    width: 25vh;
+    width: 25vmax;
     display: flex;
     margin: auto;
 }
-#imgAvatar{
-    height: 10vh;
-    width: 10vh;
-    display: flex;
-    margin: 15px auto;
-}
+/*Fim header*/
 
-#imgContribuir{
-    height: 10vh;
-    width: 25vh;
+/*Início container*/
+
+#container{
+    display: flex;
     margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    height: 70vh;
+    width: 30vw;
+    background-color: black;
 }
