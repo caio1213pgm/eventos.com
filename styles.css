@@ -5,18 +5,26 @@ body{
 header{
     display: flex;
     align-items: center;
+    height: 13vh;
+    width: 100vmax;
     background-color: #D9D9D9;
 }
 
 #imgLogo{
+    height: 10vh;
+    width: 25vh;
     display: flex;
     margin: auto;
 }
 #imgAvatar{
+    height: 10vh;
+    width: 10vh;
     display: flex;
     margin: 15px auto;
 }
 
 #imgContribuir{
+    height: 10vh;
+    width: 25vh;
     margin: auto;
 }
