@@ -21,7 +21,8 @@ header{
 
 /*INÍCIO CONTAINER*/
 #container{
-    display: flex;
+    display: grid;
+    flex-direction: column;
     margin: 37px auto;
     justify-content: center;
 
@@ -32,9 +33,14 @@ header{
 /*Início --Descrição*/
 #descricaoCaixa{
     display: flex;
-    margin: 40px 0px 520px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    
     width: 40vmax;
-    padding: 0px 15px;
+    height: 10vmax;
+    padding: 0px 10px;
     background-color: white;
     
     #descricaoTexto{
@@ -44,3 +50,20 @@ header{
     }
 }
 /*Fim --Descrição*/
+
+/*Início --Nome*/
+#nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: px;
+    height: 70px;
+    justify-content: start;
+    background-color: red;
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        color: white;
+    }
+}
