@@ -2,7 +2,7 @@ body{
     margin: 0px;
     width: 100vmax;
 }
-/*Início HEADER*/
+/*INÍCIO HEADER*/
 header{
     display: flex;
     align-items: center;
@@ -17,13 +17,14 @@ header{
     display: flex;
     margin: auto;
 }
-/*Fim HEADER*/
+/*FIM HEADER*/
 
 /*INÍCIO CONTAINER*/
 #container{
     display: grid;
     flex-direction: column;
     margin: 37px auto;
+    padding: 40px 0px;
     justify-content: center;
 
     height: 100vmin;
@@ -32,17 +33,13 @@ header{
 }
 /*Início --Descrição*/
 #descricaoCaixa{
-    display: flex;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    
-    width: 40vmax;
-    height: 10vmax;
-    padding: 0px 10px;
+    margin: 0px auto;
+    height: 25vh;
+
+    width: 40vw;
+
     background-color: white;
-    
+
     #descricaoTexto{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 20px;
@@ -53,17 +50,102 @@ header{
 
 /*Início --Nome*/
 #nome{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: px;
-    height: 70px;
-    justify-content: start;
-    background-color: red;
+    margin: 0px auto;
+    padding: 0px 15px;
+    width: 40vw;
+
+
+    h3{
+        margin: 10px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        color: white;
+    }
+
+    #txtNome {
+        height: 20px;
+        width: 30vw;
+        border: none;
+        border-radius: 15px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/*Fim --Nome*/
+
+/*Início --Email*/
+#email{
+    padding: 0px 15px;
+    margin: 0px auto;
+    width: 40vw;
+
     h3{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 30px;
         text-align: justify;
         color: white;
+        margin: 10px 0px;
+    }
+
+    #txtEmail {
+        height: 20px;
+        width: 30vw;
+        border: none;
+        border-radius: 15px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/*Fim --Email*/
+
+/*Início --Telefone*/
+#telefone{
+    padding: 0px 15px;
+    margin: 0px auto;
+    width: 40vw;
+
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        color: white;
+        margin: 10px 0px;
+    }
+
+    #txtTelefone{
+        height: 20px;
+        width: 30vw;
+        border: none;
+        border-radius: 15px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/*Fim --Telefone*/
+
+/*Início --Presença*/
+#presença{
+    padding: 0px 15px;
+    margin: 0px auto;
+    width: 40vw;
+    height: 15vh;
+
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        color: white;
+        margin: 10px 0px;
+    }
+    #txtLb{
+        color: white;
+        text-align: justify;
+        font-size: 18px;
+        font-style: italic;
+        font-family: system-ui;
     }
 }
