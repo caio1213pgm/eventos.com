@@ -27,13 +27,14 @@ header{
     padding: 40px 0px;
     justify-content: center;
 
-    height: 100vmin;
+    height: 100vh;
     width: 100vmin;
     background-color: black;
 }
 /*Início --Descrição*/
 #descricaoCaixa{
     margin: 0px auto;
+    padding: 0px 10px;
     height: 25vh;
 
     width: 40vw;
@@ -64,7 +65,7 @@ header{
     }
 
     #txtNome {
-        height: 20px;
+        height: 25px;
         width: 30vw;
         border: none;
         border-radius: 15px;
@@ -90,7 +91,7 @@ header{
     }
 
     #txtEmail {
-        height: 20px;
+        height: 25px;
         width: 30vw;
         border: none;
         border-radius: 15px;
@@ -116,7 +117,7 @@ header{
     }
 
     #txtTelefone{
-        height: 20px;
+        height: 25px;
         width: 30vw;
         border: none;
         border-radius: 15px;
@@ -148,4 +149,13 @@ header{
         font-style: italic;
         font-family: system-ui;
     }
+}
+/*Fim --Presença*/
+/*Início --butao*/
+#butao{
+    margin: 0px auto;
+    width: 12vw;
+    height: 5vh;
+
+    font-size: 20px;
 }
