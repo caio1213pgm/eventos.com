@@ -1,12 +1,12 @@
-const pegarBilhete = document.getElementById('butao');
+var pegarBilhete = document.getElementById('butao');
 
 
 function bilhete (){
-    const nome = document.getElementById('txtNome').value;
-    const email = document.getElementById('txtEmail').value;
-    const telefone = document.getElementById('txtTelefone').value;
-    const presença = document.getElementById('checkY');
-    const nPresença = document.getElementById('checkN');
+    var nome = document.getElementById('txtNome').value;
+    var email = document.getElementById('txtEmail').value;
+    var telefone = document.getElementById('txtTelefone').value;
+    var presença = document.getElementById('checkY');
+    var nPresença = document.getElementById('checkN');
 
     if(presença.checked && nPresença.checked){
         alert('Marque apenas uma opção no checkbox');
@@ -21,4 +21,19 @@ function bilhete (){
     }
 }
 
-pegarBilhete.addEventListener('click', bilhete)
+pegarBilhete.addEventListener('click', bilhete);
+
+pegarBilhete.addEventListener('click', function(){
+    create(nome, email, telefone)
+});
+
+function create(){
+    var data = {
+        nome: nome,
+        email: email,
+        telefone: telefone
+    };
+
+    return firebase.database().ref().child('users').push(data);
+}
+

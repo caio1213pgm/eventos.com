@@ -41,8 +41,39 @@
             </div>
 
             <button id="butao">Pegar Bilhete</button>
+
+            
         </div>
+
+        <hr>
+        <ul id="userList"></ul>
+        
     </main>
     <script src="script.js"></script>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyA2u4YjYosdYe62pT-A8xETo39Y1Jj5REM",
+          authDomain: "eventos-bd.firebaseapp.com",
+          projectId: "eventos-bd",
+          storageBucket: "eventos-bd.appspot.com",
+          messagingSenderId: "92461148898",
+          appId: "1:92461148898:web:5f8a6b672c39d4c1e84cbb",
+          measurementId: "G-5FE07DBPZT"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+      
 </body>
 </html>
