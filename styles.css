@@ -2,22 +2,6 @@ body{
     margin: 0px;
     width: 100vmax;
 }
-/*INÍCIO HEADER*/
-header{
-    display: flex;
-    align-items: center;
-    height: 20vh;
-    width: 100vmax;
-    background-color: #D9D9D9;
-}
-
-#imgLogo{
-    height: 15vh;
-    width: 20vmax;
-    display: flex;
-    margin: auto;
-}
-/*FIM HEADER*/
 
 /*INÍCIO CONTAINER*/
 #container{
